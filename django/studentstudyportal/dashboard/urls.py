@@ -18,6 +18,8 @@ urlpatterns =[
     path('books',views.book,name="books"),
     path('dictionary',views.dictionary,name="dictionary"),
     path('wiki',views.wiki,name="wiki"),  
+    path('conversion',views.conversion,name="conversion"),  
+
 
 
 
